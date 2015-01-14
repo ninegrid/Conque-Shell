@@ -1487,7 +1487,7 @@ endfunction " }}}
 
 function! conque_term#load_python() " {{{
 
-    exec s:py . "file " . s:scriptdirpy . "conque_globals.py"
+" ****** exec s:py . "file " . s:scriptdirpy . "conque_globals.py"
     exec s:py . "file " . s:scriptdirpy . "conque.py"
     if s:platform == 'windows'
         exec s:py . "file " . s:scriptdirpy . "conque_win32_util.py"
